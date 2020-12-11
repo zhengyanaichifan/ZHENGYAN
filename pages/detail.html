@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="../images/menu.jpg" alt="">
+                </a>
+            </li>
+            <li><a href="./index.html"><b>TEAM WANG</b></a></li>
+            <li>
+                <a href="./cart.html">
+                    <img src="../images/shopping.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+    <div class="box" id="box1">
+        <!-- 图片展示盒子 -->
+        <div class="show">
+          <img src="../images/show1.jpg" alt="">
+          <div class="mask"></div>
+        </div>
+    
+        <!-- 图片选项列表盒子 -->
+        <div class="list">
+          <p class="active">
+            <img src="../images/small1.jpg" show="../images/show1.jpg" enlarge="../images/big1.jpg" alt="">
+          </p>
+          <p>
+            <img src="../images/small2.jpg" show="../images/show2.jpg" enlarge="../images/big2.jpg" alt="">
+          </p>
+          <p>
+            <img src="../images/small3.jpg" show="../images/show3.jpg" enlarge="../images/big3.jpg" alt="">
+          </p>
+          <p>
+            <img src="../images/small4.jpg" show="../images/show4.jpg" enlarge="../images/big4.jpg" alt="">
+          </p>
+        </div>
+    
+        <!-- 放大镜盒子 -->
+        <div class="enlarge"></div>
+    </div>
+
+    <div class="word">
+        <h2><b>Gradient Print Oversized T-shirt</b></h2>
+        <ul>
+            <li>TEAM WANG x MONET exclusive print</li>
+            <li>TEAM WANG logo print in gradient style</li>
+            <li>Metal EYELET</li>
+            <li>Oversized style</li>
+            <li>Long-staple cotton & ponte-de-roma</li>
+            <li>Front fabric composition: 100% cotton</li>
+            <li>Back fabric composition: 100% polyester</li>
+            <li>LENGTH: 76cm</li>
+            <li>CHEST: 132cm</li>
+            <li>SHOULDER to SLEEVE: 46.5cm</li>
+        </ul>
+        <p><b>$135.00</b></p>
+        <div class="cart">
+            <span>
+                1
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ol>
+            </span>
+            <button type="submit"><b>ADD TO CART</b></button>
+        </div>
+
+    </div>
+
+
+    <div class="back">
+        <a href="./index.html"><b>&nbsp;&nbsp;&nbsp;<--- BACK TO TEAM WANG X MONET</b></a>
+    </div>
+
+
+    <div class="info">
+        <div class="left">
+            <form action="">
+                <input type="text" placeholder="Email address">
+                <button>SUBSCRIBE</button>
+            </form>
+        </div>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="./search.html">SEARCH</a>
+                </li>
+                <li>
+                    <a href="">SHIPPING POLICY</a>
+                </li>
+                <li>
+                    <a href="">RETURN & REFUND POLICY</a>
+                </li>
+                <li>
+                    <a href="">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hr"></div>
+
+    <div class="footer">
+        <div class="one">
+            <span><a href="./login.html"><b>LOGIN /</b></a></span>
+            <span><a href=""><b>INFO</b></a></span>
+        </div>
+        <div class="two">
+            <h2><b>TEAM WANG</b></h2>
+            <p><b>&copy;  2020</b></p>
+        </div>
+        <div class="three">
+            <span><a href=""><img src="../images/facebook.jpg" alt=""></a></span>
+            <span><a href=""><img src="../images/instagram.jpg" alt=""></a></span>
+            <span><a href=""><img src="../images/sina.jpg" alt=""></a></span>
+            <span><a href=""><img src="../images/youtube.jpg" alt=""></a></span>
+        </div>
+    </div>
+
+    <script src="../assets/jquery/jquery.min.js"></script>
+    <script src="../js/detail.js"></script>
+
+    <script>
+        const e1 = new Enlarge ('#box1')
+        console.log(e1)
+        
+    </script>
+</body>
+</html>

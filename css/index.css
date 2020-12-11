@@ -1,0 +1,159 @@
+html, body, img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+}
+
+.navigation {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+.navigation ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation ul li {
+  color: #A2A2A2;
+  margin: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.navigation ul li a {
+  color: #A2A2A2;
+  margin: 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navigation ul li.active {
+  color: white;
+}
+.navigation ul li:nth-of-type(1) a {
+  font-size: 26px;
+  color: white;
+}
+.navigation ul li:nth-of-type(2) .showBox,
+.navigation ul li:nth-of-type(3) .showBox,
+.navigation ul li:nth-of-type(4) .showBox {
+  width: 1000px;
+  height: 560px;
+  position: absolute;
+  top: 80px;
+  left: 250px;
+  display: none;
+}
+.navigation ul li:nth-of-type(2) .showBox .swiper-container,
+.navigation ul li:nth-of-type(3) .showBox .swiper-container,
+.navigation ul li:nth-of-type(4) .showBox .swiper-container {
+  width: 620px;
+  height: 560px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navigation ul li:nth-of-type(2) .showBox .swiper-container .swiper-wrapper,
+.navigation ul li:nth-of-type(3) .showBox .swiper-container .swiper-wrapper,
+.navigation ul li:nth-of-type(4) .showBox .swiper-container .swiper-wrapper {
+  width: 620px;
+  height: 100%;
+}
+.navigation ul li:nth-of-type(2) .showBox .swiper-container .swiper-wrapper img,
+.navigation ul li:nth-of-type(3) .showBox .swiper-container .swiper-wrapper img,
+.navigation ul li:nth-of-type(4) .showBox .swiper-container .swiper-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.navigation ul li:nth-of-type(2) .showBox .right,
+.navigation ul li:nth-of-type(3) .showBox .right,
+.navigation ul li:nth-of-type(4) .showBox .right {
+  position: relative;
+  top: -20x;
+  right: -620px;
+  z-index: 999;
+  width: 380px;
+  height: 100%;
+  background-color: black;
+  overflow: auto;
+}
+.navigation ul li:nth-of-type(2) .showBox .right h3,
+.navigation ul li:nth-of-type(3) .showBox .right h3,
+.navigation ul li:nth-of-type(4) .showBox .right h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.navigation ul li:nth-of-type(2) .showBox .right p,
+.navigation ul li:nth-of-type(3) .showBox .right p,
+.navigation ul li:nth-of-type(4) .showBox .right p {
+  font-size: 14px;
+  text-indent: 1em;
+  margin-bottom: 30px;
+}
+.navigation ul li:nth-of-type(2) .showBox .right h1,
+.navigation ul li:nth-of-type(3) .showBox .right h1,
+.navigation ul li:nth-of-type(4) .showBox .right h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.navigation ul li:nth-of-type(2) .showBox .right ol,
+.navigation ul li:nth-of-type(3) .showBox .right ol,
+.navigation ul li:nth-of-type(4) .showBox .right ol {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation ul li:nth-of-type(2) .showBox .right ol li,
+.navigation ul li:nth-of-type(3) .showBox .right ol li,
+.navigation ul li:nth-of-type(4) .showBox .right ol li {
+  width: 50%;
+  height: 170px;
+}
+.navigation ul li:nth-of-type(2) .showBox .right ol li img,
+.navigation ul li:nth-of-type(3) .showBox .right ol li img,
+.navigation ul li:nth-of-type(4) .showBox .right ol li img {
+  width: 190px;
+  height: 170px;
+}
+.navigation ul li:nth-of-type(2) .showBox .right ol li a,
+.navigation ul li:nth-of-type(3) .showBox .right ol li a,
+.navigation ul li:nth-of-type(4) .showBox .right ol li a {
+  color: black;
+  width: 125px;
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  font-size: 14px;
+}
+.navigation ul li:nth-of-type(2) .showBox .right ol li:nth-of-type(5),
+.navigation ul li:nth-of-type(3) .showBox .right ol li:nth-of-type(5),
+.navigation ul li:nth-of-type(4) .showBox .right ol li:nth-of-type(5) {
+  height: 30px;
+  line-height: 30px;
+  margin-top: -5px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,18 @@
+body, p, ol, ul, dl, dd, h1, h2, h3, h4, h5, h6, input, button{
+	margin: 0;
+	padding: 0;
+}
+input, button{
+	border: 0;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+img {
+	vertical-align: top;
+	border: 0;
+}

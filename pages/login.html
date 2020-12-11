@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="../images/menu.jpg" alt="">
+                </a>
+            </li>
+            <li><a href="./index.html"><b>TEAM WANG</b></a></li>
+            <li>
+                <a href="./cart.html">
+                    <img src="../images/shopping.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- <div class="login">
+        <h1>Login</h1>
+        <form action="" id="login">
+            <span class="login_error hide">Incorrect email or password</span>
+            Email<br>
+            <input type="text" name="username" id="username"><br>
+            Password<br>
+            <input type="password" name="password" id="password">
+        </form>
+        <p><a href="">Forgot your password?</a></p>
+        <button type="submit" class="login">SIGN IN</button>
+        <p><a href="">Create account</a></p>
+    </div> -->
+
+
+    <div class="info userinfo container">
+        <!-- 面板 -->
+        <div class="panel panel-success">
+          <!-- 面板头部 -->
+          <div class="panel-heading">LOGIN</div>
+          <!-- 面板身体 -->
+          <div class="panel-body">
+            <span class="login_error hide">Incorrect email or password</span>
+            <form class="col-sm-11" id="login">
+              <div class="form-group">
+                <label for="username">Email: </label><br>
+                <input type="text" name="username" class="form-control" autocomplete="off" id="username" placeholder="Please write Email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password: </label><br>
+                <input type="text" name="password" class="form-control" autocomplete="off" id="password" placeholder="Please write password">
+              </div>
+              <button type="submit" class="login btn btn-success col-sm-5">LOGIN</button>
+              <button type="button" class="register pull-right btn btn-warning col-sm-5">Create</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <!-- <div class="resetPwd">
+        <p><b>RESET YOUR PASSWORD</b></p>
+        <p>We will send you an email to reset your password.</p>
+        <form action="">
+            Email<br>
+            <input type="text">
+        </form>
+        <a href="">SUBMIT</a><br>
+        <a href="./login.html">Cancel</a>
+    </div>
+
+    <div class="create">
+        <h2>Create Account</h2>
+        <form action="">
+            First name
+            <input type="text">
+            Last Name
+            <input type="text">
+            Email
+            <input type="text">
+            Password
+            <input type="password">
+            <button>CREATE</button>
+        </form>
+    </div> -->
+
+
+
+    <div class="infor">
+        <div class="left">
+            <form action="">
+                <input type="text" placeholder="Email address">
+                <button>SUBSCRIBE</button>
+            </form>
+        </div>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="./search.html">SEARCH</a>
+                </li>
+                <li>
+                    <a href="">SHIPPING POLICY</a>
+                </li>
+                <li>
+                    <a href="">RETURN & REFUND POLICY</a>
+                </li>
+                <li>
+                    <a href="">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hr"></div>
+
+    <div class="footer">
+        <div class="one">
+            <span><a href=""><b>LOGIN /</b></a></span>
+            <span><a href=""><b>INFO</b></a></span>
+        </div>
+        <div class="two">
+            <h2><b>TEAM WANG</b></h2>
+            <p><b>&copy;  2020</b></p>
+        </div>
+        <div class="three">
+            <span><a href=""><img src="../images/facebook.jpg" alt=""></a></span>
+            <span><a href=""><img src="../images/instagram.jpg" alt=""></a></span>
+            <span><a href=""><img src="../images/sina.jpg" alt=""></a></span>
+            <span><a href=""><img src="../images/youtube.jpg" alt=""></a></span>
+        </div>
+    </div>
+
+
+    <script src="../assets/jquery/jquery.min.js"></script>
+    <!-- 引入 validation 插件 -->
+    <script src="../assets/jquery-validation/jquery.validate.min.js"></script>
+    <!-- 引入提示的中文包 -->
+    <script src="../assets/jquery-validation/localization/messages_zh.js"></script>
+
+    <script src="../js/public.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+.header {
+    width: 1270px;
+    height: 78px;
+    // background-color: yellow;
+    margin: 40px auto;
+    margin-bottom: 26px;
+
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li:nth-of-type(1) {
+            a {
+                display: block;
+                width: 40px;
+                height: 40px;
+                border: 2px solid black;
+                padding: 5px;
+                box-sizing: border-box;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        li:nth-of-type(2) {
+            a {
+                color: black;
+                font-size: 48px;
+            }
+        }
+
+        li:nth-of-type(3) {
+            a {
+                display: block;
+                width: 40px;
+                height: 40px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+// .login {
+//     width: 536px;
+//     height: 296px;
+//     background-color: pink;
+//     margin: 0 auto;
+//     margin-bottom: 96px;
+//     // position: relative;
+//     // top: 40px;
+//     // left: 445px;
+
+//     h1 {
+//         line-height: 1;
+//         text-align: center;
+//     }
+
+//     form {
+//         input {
+//             width: 100%;
+//             height: 40px;
+//             border: 1px solid black;
+//             border-radius: 3px;
+//             margin-bottom: 15px;
+//             margin-top: 10px;
+//             padding: 14px 18px;
+//             box-sizing: border-box;
+//         }
+//     }
+
+//     p {
+//         text-align: center;
+
+//         a {
+//             color: black;
+//         }
+//     }
+
+//     button {
+//         display: block;
+//         margin: 13px auto;
+//         width: 96px;
+//         height: 36px;
+//         text-align: center;
+//         background-color: black;
+//         color: white;
+//         font-size: 12px;
+//         padding: 12px 20px;
+//         box-sizing: border-box;
+//         cursor: pointer; 
+//     }
+    // p:nth-of-type(2) {
+        
+        
+    //     a {
+    //         display: block;
+    //         margin: 13px auto;
+    //         width: 96px;
+    //         height: 36px;
+    //         text-align: center;
+    //         background-color: black;
+    //         color: white;
+    //         font-size: 12px;
+    //         padding: 12px 20px;
+    //         box-sizing: border-box;
+    //     }
+    // }
+// }
+
+// html, body {
+//     width: 100%;
+//     height: 100%;
+//     background-color: skyblue;
+//     display: flex;
+//   }
+  
+//   .info {
+//       margin: auto;
+//       height: 296px;
+//       width: 536px;
+//       margin-bottom: 80px;
+//     //   background-color: pink;
+      
+
+//       .panel {
+          
+//         //   .panel-heading {
+//         //     line-height: 1;
+//         //     text-align: center;
+//         //     font-size: 35px;
+//         //     font-weight: 800;
+//         //   }
+
+//           .panel-body {
+//               .hide {
+//                   display: none;
+//               }
+//               form {
+//                   label {
+//                       font-size: 20px;
+//                   }
+
+//                   input {
+//                     width: 100%;
+//                     height: 40px;
+//                     border: 1px solid black;
+//                     border-radius: 3px;
+//                     margin-bottom: 15px;
+//                     margin-top: 10px;
+//                     padding: 14px 18px;
+//                     box-sizing: border-box;
+//                   }
+
+//                   button {
+//                     display: block;
+//                     margin: 13px auto;
+//                     width: 96px;
+//                     height: 36px;
+//                     text-align: center;
+//                     background-color: black;
+//                     color: white;
+//                     font-size: 12px;
+//                     padding: 12px 20px;
+//                     box-sizing: border-box;
+//                     cursor: pointer; 
+//                     float: left;
+//                     margin: 10px 50px;
+//                   }
+//               }
+//           }
+//       }
+//   }
+  
+//   .info .login,
+//   .info .register {
+//     display: inline;
+//   }
+
+
+.resetPwd {
+    width: 530px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // position: absolute;
+    // top: 40px;
+    // left: 445px;
+
+    p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    p:nth-of-type(2) {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    form {
+        width: 100%;
+        input {
+            width: 100%;
+            height: 40px;
+            border: 2px solid black;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 3px;
+            margin-top: 9px;
+            margin-bottom: 8px;
+        }
+    }
+
+    a:nth-of-type(1) {
+        width: 95px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: -3px;
+    }
+    a:nth-of-type(2) {
+        color: black;
+    }
+}
+
+.create {
+    width: 540px;
+    height: 390px;
+    background-color: yellow;
+    margin: 0 auto;
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+
+        input {
+            border: 1px solid black;
+            border-radius: 3px;
+            width: 100%;
+            height: 40px;
+            margin-top: 6px;
+            margin-bottom: 10px;
+            padding: 15px 20px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 95px;
+            height: 40px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+.infor {
+    width: 1270px;
+    height: 120px;
+    margin: 0 auto;
+    // background-color: skyblue;
+    display: flex;
+    overflow: hidden;
+    // margin-bottom: 90px;
+    // justify-content: space-around;
+
+    .left {
+        width: 543px;
+        height: 46px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-right: 284px;
+
+        form {
+            display: flex;
+
+            input {
+                width: 420px;
+                height: 46px;
+                border: 1px solid black;
+                border-radius: 4px;
+                padding: 15px 20px 18px 20px;
+                box-sizing: border-box;
+            }
+
+            button {
+                flex: 1;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+
+    .right {
+        width: 230px;
+        height: 110px;
+        // border: 1px solid red;
+        margin-top: 20px;
+        ul {
+            width: 230px;
+            li {
+                width: 228px;
+                height: 27px;
+                a {
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.hr {
+    width: 100%;
+    height: 96px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.footer {
+    width: 1088px;
+    height: 108px;
+    // background-color: peru;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .one {
+        flex: 1;
+        // background-color: red;
+        margin-top: 30px;
+        span {
+
+            a {
+                color: black;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .two {
+        flex: 1;
+        margin-top: 23px;
+        // background-color: yellow;
+        text-align: center;
+        h2 {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .three {
+        flex: 1;
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+
+        span {
+            width: 20px;
+            height: 20px;
+            margin-left: 17px;
+        }
+    }
+}
